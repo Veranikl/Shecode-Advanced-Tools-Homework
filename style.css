@@ -123,11 +123,6 @@ p {
     opacity: 0.6;
     margin: 0 15px;
   }
-  #yoga-image,
-  #weather-image,
-  #yogurt-image {
-    display: none;
-  }
 
   .col-md-6,
   .mb-3 {
