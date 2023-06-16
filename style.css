@@ -107,3 +107,36 @@ p {
 .col-md-6 {
   margin-top: 40px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+    opacity: 0.6;
+    margin: 0 15px;
+  }
+  #yoga-image,
+  #weather-image,
+  #yogurt-image {
+    display: none;
+  }
+
+  .col-md-6,
+  .mb-3 {
+    text-align: center !important;
+    margin: 10px auto;
+  }
+
+  .project-link {
+    margin: 0 10px;
+    display: block;
+  }
+}
